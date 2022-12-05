@@ -3,13 +3,12 @@
 # *Пример:*
 # - [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12
 
-
 import os
 os.system('cls||clear')
 
 from random import randint
 list = [randint(1, 10) for i in range(5)]
-print (list)
+print(list)
 sum = 0
 for i in range(len(list)):
     if i % 2 != 0:
